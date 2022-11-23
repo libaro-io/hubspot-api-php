@@ -1,7 +1,7 @@
 {
-    "name": "hubspot/api-client",
+    "name": "libaro-io/hubspot-api-client",
     "version": "9.0.0",
-    "description": "Hubspot API client",
+    "description": "Hubspot API client for guzzles 6.3",
     "keywords": [
         "hubspot",
         "swagger",
