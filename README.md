@@ -7,7 +7,7 @@ PHP [HubSpot API](https://developers.hubspot.com/docs/api/overview) v3 SDK(Clien
 ## Installation
 
 ```bash
-composer require hubspot/api-client
+composer require libaro-io/hubspot-api-client
 ```
 
 ## Requirements
