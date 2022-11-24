@@ -676,7 +676,12 @@ class AssociationsApi
         }
 
         $resourcePath = '/crm/v4/objects/deals/{dealId}/associations/{toObjectType}/{toObjectId}';
-        $formParams = [];
+        $formParams = [
+            [
+                'associationCategory' => 'HUBSPOT_DEFINED',
+                'associationTypeId' => 3
+            ],
+        ];
         $queryParams = [];
         $headerParams = [];
         $httpBody = '';
